@@ -1,0 +1,5 @@
+1.导入数据
+2.配置项目 
+3.配置自动任务
+*/1 * * * * su - apache -c "/usr/local/php/bin/php /home/wwwroot/ppp-online-advisory/ppp.com/artisan schedule:run" 1>>/var/log/crontab_www.log 2>&1
+*/1 * * * * runuser -l www  -c "/usr/local/php/bin/php /home/wwwroot/ppp-online-advisory/ppp.com/artisan schedule:run" 1>>/var/log/crontab_www.log 2>&1

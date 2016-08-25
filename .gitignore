@@ -1,0 +1,10 @@
+.env
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/logs/
+storage/debug_log/
+storage/app/
+public/temp/
+
+
