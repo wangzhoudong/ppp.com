@@ -1,0 +1,40 @@
+.webuploader-container {
+	position: relative;
+}
+.webuploader-element-invisible {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px,1px,1px,1px);
+}
+.webuploader-pick {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	background: #00b7ee;
+	padding: 10px 15px;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.webuploader-pick-hover {
+	background: #00a2d4;
+}
+
+.webuploader-pick-disable {
+	opacity: 0.6;
+	pointer-events:none;
+}
+.WebUploader .spiner-example{height:200px;  padding-top:70px display: none; text-align: center; padding-top: 0px; position: relative; width: 200px;background-color: #efefef; border:solid 1px #efefef; overflow: hidden;}
+.WebUploader .spiner-example img{ display: inline; width: 100%; height: 200px; }
+.WebUploader .sk-spinner { position: absolute; top: 50%; left: 50%; margin: -15px 0px 0px -25px; z-index: 20; }
+.WebUploader .spiner-example .fa{ position:absolute; right: 5px; top: 5px; z-index: 20; font-size: 20px; cursor: pointer;}
+
+.upload-ibox-content a{ position: relative; zoom:1; z-index: 1; width: 100px; height: 100px; display: inline-block; font-size: 14px;  }
+.upload-ibox-content a img{ display: block; width: 100%; margin: 0px;width: 100px; height: 100px;}
+.upload-ibox-content a .fa{ position: absolute; right: 10px; top: 5px; z-index: 50; color: #fff;}
+.upload-ibox-content a .fa:hover{ opacity: .8;}
+.upload-ibox-content a .fa-pencil{ bottom: 10px; top: auto;}
+.upload-ibox-content a .fa-download{ bottom: 10px; top: auto; right: 45px;}
+.upload-ibox-content .btn{ margin: auto;}
+.upload-ibox-content .fa{ background: rgba(0,0,0,.5); width: 25px;height:25px;	text-align: center; line-height: 25px; }

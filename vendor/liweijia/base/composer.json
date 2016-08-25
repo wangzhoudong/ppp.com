@@ -1,0 +1,28 @@
+{
+    "name": "liweijia/base",
+    "description": "PPP项目统一入口",
+    "homepage": "http://www.ppp.com/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangzd",
+            "homepage": "http://www.yijinba.com"
+        }
+    ],
+    "require": {
+        "php":">=5.5.0",
+        "ext-openssl": "*"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "~4.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"LWJ\\": "src/"},
+        "files": [
+            "src/Helper/constants.php",
+            "src/Helper/functions.inc.php"
+        ]
+    }
+}

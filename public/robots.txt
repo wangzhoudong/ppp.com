@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /api/ 
+Disallow: /pay/
+Disallow: /order/
+Disallow: /user/
+Disallow: /account/
+Disallow: /foundation/
+Disallow: /admin-skins/
+Disallow: /temp/
